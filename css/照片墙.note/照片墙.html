@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+		    body{
+		    	text-align: center;
+		    	background-color: gray;
+		    }
+			img{
+				width: 12%;
+				border: solid 1px red;
+				background-color: white;
+				transform: rotate(-10deg);/*设置角度*/
+				margin: 20px;/*设置外边距*/
+				
+			}
+			/*使用伪类给标签添加样式*/
+			img:hover{
+				transform: rotate(0deg) scale(1.6);
+				z-index: 1; /*设置显示优先级*/
+				transition:1.5s;
+			}
+		</style>
+	</head>
+	<body><br /><br /><br /><br />
+		<img src="img/一花.jpg" alt="" />
+		<img src="img/二乃.jpg" alt="" />
+		<img src="img/三玖.jpg" alt="" />
+		<img src="img/四叶.jpg" alt="" /><br />
+		<img src="img/五月.jpg" alt="" />
+		<img src="img/千石抚子.jpg" alt="" />
+		<img src="img/霞之丘诗羽.jpg" alt="" / style="width: 9%;">
+		<img src="img/樱岛麻衣.jpg" alt="" />
+	</body>
+</html>
